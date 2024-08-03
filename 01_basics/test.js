@@ -23,6 +23,8 @@ console.log(num);
 
 // Non-Primitive Data Types (call by reference)
 
+// all data types return object
+
 // Arrays, Objects, Functions
 
 const heroes = ["superman", "batman", "spiderman"]
@@ -41,4 +43,6 @@ const myFunc = function() {
 myFunc()
 
 console.log(typeof myFunc);
+console.log(typeof heroes);
+console.log(typeof info);
 
