@@ -1,89 +1,123 @@
-let scoreOne = 52;
+// let scoreOne = 52;
 
-console.log(typeof scoreOne);
+// console.log(typeof scoreOne);
 
-let scoreTwo = "33";
+// let scoreTwo = "33";
 
-console.log(typeof scoreTwo);
+// console.log(typeof scoreTwo);
 
-let valueInNumberOne = Number(scoreTwo)
+// let valueInNumberOne = Number(scoreTwo)
 
-console.log(typeof valueInNumberOne);
-console.log(valueInNumberOne);
+// console.log(typeof valueInNumberOne);
+// console.log(valueInNumberOne);
 
-let scoreThree = "33abc";
+// let scoreThree = "33abc";
 
-let valueInNumberTwo = Number(scoreThree)
+// let valueInNumberTwo = Number(scoreThree)
 
-console.log(typeof valueInNumberTwo);
-console.log(valueInNumberTwo);
+// console.log(typeof valueInNumberTwo);
+// console.log(valueInNumberTwo);
 
-let scoreFour = null;
+// let scoreFour = null;
 
-let valueInNumberThree = Number(scoreFour)
+// let valueInNumberThree = Number(scoreFour)
 
-console.log(typeof valueInNumberThree);
-console.log(valueInNumberThree);
+// console.log(typeof valueInNumberThree);
+// console.log(valueInNumberThree);
 
-let scoreFive = undefined;
+// let scoreFive = undefined;
 
-let valueInNumberFour = Number(scoreFive)
+// let valueInNumberFour = Number(scoreFive)
 
-console.log(typeof valueInNumberFour);
-console.log(valueInNumberFour);
+// console.log(typeof valueInNumberFour);
+// console.log(valueInNumberFour);
 
-let scoreSix = true;
+// let scoreSix = true;
 
-let valueInNumberFive = Number(scoreSix)
+// let valueInNumberFive = Number(scoreSix)
 
-console.log(typeof valueInNumberFive);
-console.log(valueInNumberFive);
+// console.log(typeof valueInNumberFive);
+// console.log(valueInNumberFive);
 
-// "33" => 33
-// "33abc" => NaN (Not a Number)
-// null => 0
-// undefined => NaN (Not a Number)
-// true => 1 (boolean)
-// false => 0 (boolean)
+// // "33" => 33
+// // "33abc" => NaN (Not a Number)
+// // null => 0
+// // undefined => NaN (Not a Number)
+// // true => 1 (boolean)
+// // false => 0 (boolean)
 
 
-let isLoggedIn = 1;
+// let isLoggedIn = 1;
 
-let booleanIsLoggedIn = Boolean(isLoggedIn);
+// let booleanIsLoggedIn = Boolean(isLoggedIn);
 
-console.log(typeof booleanIsLoggedIn);
-console.log(booleanIsLoggedIn);
+// console.log(typeof booleanIsLoggedIn);
+// console.log(booleanIsLoggedIn);
 
-let isLoggedOut = 0;
+// let isLoggedOut = 0;
 
-let booleanIsLoggedOut = Boolean(isLoggedOut);
+// let booleanIsLoggedOut = Boolean(isLoggedOut);
 
-console.log(typeof booleanIsLoggedOut);
-console.log(booleanIsLoggedOut);
+// console.log(typeof booleanIsLoggedOut);
+// console.log(booleanIsLoggedOut);
 
-let val1 = "";
+// let val1 = "";
 
-let conv1 = Boolean(val1);
+// let conv1 = Boolean(val1);
 
-console.log(typeof conv1);
-console.log(conv1);
+// console.log(typeof conv1);
+// console.log(conv1);
 
-let val2 = "Hello";
+// let val2 = "Hello";
 
-let conv2 = Boolean(val2);
+// let conv2 = Boolean(val2);
 
-console.log(typeof conv2);
-console.log(conv2);
+// console.log(typeof conv2);
+// console.log(conv2);
 
-// 1 => true
-// 0 => false
-// "" => false
-// "Hello" => true
+// // 1 => true
+// // 0 => false
+// // "" => false
+// // "Hello" => true
 
-let someNumber = 33
+// let someNumber = 33
 
-let convertStringToNumber = String(someNumber)
+// let convertStringToNumber = String(someNumber)
 
-console.log(typeof convertStringToNumber);
-console.log(convertStringToNumber);
+// console.log(typeof convertStringToNumber);
+// console.log(convertStringToNumber);
+
+
+// ******************************************************  Operations **************************************************
+
+let value = 3
+let negValue = -value
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2/2);
+// console.log(2**2);
+// console.log(2%2);
+
+// let str1 = "hello"
+// let str2 = " world"
+
+// let str = str1+str2
+// console.log(str);
+
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1" + 2 + 2);
+console.log(1 + 2 + "2");
+
+console.log(+true); // not recommended
+console.log(+""); // not recommended
+
+let gameCounter = 100;
+++gameCounter;
+console.log(gameCounter++);
+
+
+
 
