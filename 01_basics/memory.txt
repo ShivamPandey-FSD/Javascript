@@ -1,0 +1,9 @@
+Stack memory 
+
+1. All primitive data types use stack memory
+2. It returns the copy of the declared variable
+
+Heap memory
+
+1. All non-primitive data types use heap memory
+2. It returns the reference of the original value. If there is any change, original value also changed
