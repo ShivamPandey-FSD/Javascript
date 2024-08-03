@@ -56,6 +56,3 @@ jsUser.greetingTwo = function() {
 
 console.log(jsUser.greetingTwo());
 
-
-// constructor method
-// Object.create
