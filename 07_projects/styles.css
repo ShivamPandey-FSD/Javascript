@@ -3,10 +3,11 @@
 }
 
 body {
-  margin: 0;
+  margin: auto;
   font-family: system-ui, sans-serif;
   color: black;
   background-color: white;
+  width: 100%;
 }
 
 nav {
